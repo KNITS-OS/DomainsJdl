@@ -1,0 +1,20 @@
+
+entity AssetModel {
+    id Long
+    name String
+}
+
+entity Asset {
+    id Long
+    name String
+}
+
+entity Manufacturer {
+    id Long
+    name String
+}
+
+entity Category {
+    id Long
+    name String
+}

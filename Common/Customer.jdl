@@ -1,0 +1,46 @@
+
+
+entity Customer {
+    id Long
+    name String
+}
+
+entity SalesOrder {
+    id Long
+    name String
+}
+
+entity SalesOrderRequisition {
+    id Long
+    name String
+}
+
+entity OrderLine {
+    id Long
+    name String
+}
+
+entity Item {
+    id Long
+    name String
+}
+
+entity Shipment {
+    id Long
+    name String
+}
+
+entity ShipmentLine {
+    id Long
+    name String
+}
+
+entity OrderStatus {
+    id Long
+    name String
+}
+
+entity SupplierRate {
+    id Long
+    name String
+}

@@ -1,0 +1,19 @@
+entity Factory {
+    id Long
+    name String
+}
+
+entity ProductionLine {
+    id Long
+    name String
+}
+
+entity Machine {
+    id Long
+    name String
+}
+
+entity Assembly {
+    id Long
+    name String
+}

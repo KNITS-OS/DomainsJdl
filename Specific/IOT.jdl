@@ -1,0 +1,9 @@
+entity Device {
+    id Long
+    name String
+}
+
+entity Metric {
+    id Long
+    name String
+}

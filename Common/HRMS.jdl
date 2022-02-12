@@ -1,0 +1,45 @@
+/**
+ * The Entity entity.
+ * @author A true hipster
+ */
+entity Employee {
+    id Long
+    name String
+
+}
+
+entity Team {
+    id Long
+    name String
+}
+
+entity Role {
+    id Long
+    name String
+}
+
+
+entity BusinessUnit {
+    id Long
+    name String
+}
+
+entity Group {
+    id Long
+    name String
+}
+
+entity Project {
+    id Long
+    name String
+}
+
+/**
+ * Autonomous Legal Entity in Enterprise.
+ * @author A true hipster
+ */
+entity Organization {
+   id Long
+    legalName String
+}
+
